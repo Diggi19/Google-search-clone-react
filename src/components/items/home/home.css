@@ -1,0 +1,137 @@
+.home__container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.home__navbar {
+  width: 90%;
+  margin: auto;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__btnleft {
+  width: 40%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.nav__btnleft h3 {
+  font-weight: lighter;
+  font-family: sans-serif;
+  margin-left: 1em;
+}
+.nav__btnleft h3:hover {
+  cursor: pointer;
+}
+.nav__btnright {
+  width: 45%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.nav__btnright h3 {
+  font-weight: lighter;
+  font-family: sans-serif;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+.nav__btnright h3:hover {
+  cursor: pointer;
+}
+.store__icon {
+  cursor: pointer;
+  margin-right: 0.5em;
+}
+.avatar {
+  cursor: pointer;
+}
+
+.home__main {
+  margin-top: 4em;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.home__fields {
+  width: 70%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home__image {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home__image img {
+  width: 100%;
+  max-width: 400px;
+  height: 100%;
+  object-fit: contain;
+}
+.home__search {
+  border: 1px solid rgba(134, 133, 133, 0.596);
+  border-radius: 1em;
+  padding: 0.1em;
+  max-width: 380px;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home__form {
+  width: 100%;
+  display: flex;
+}
+.home__form button {
+  background: none;
+  outline: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchicon {
+  margin-left: 0.4em;
+}
+.searchicon:hover {
+  color: grey;
+  cursor: pointer;
+}
+.micicon {
+  margin-right: 0.4em;
+}
+.micicon:hover {
+  color: grey;
+  cursor: pointer;
+}
+.home__search input {
+  width: 90%;
+  outline: none;
+  border: none;
+}
+.home__search input {
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: rgba(15, 15, 15, 0.863);
+}
+.home__btns {
+  display: flex;
+  margin-top: 1em;
+}
+.home__btns button {
+  margin: 0.4em;
+  text-transform: inherit;
+  background-color: rgba(218, 216, 216, 0.555);
+}
